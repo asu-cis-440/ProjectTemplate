@@ -19,16 +19,16 @@ namespace ProjectTemplate
 		////////////////////////////////////////////////////////////////////////
 		///replace the values of these variables with your database credentials
 		////////////////////////////////////////////////////////////////////////
-		private string dbID = "cis440DBtestuser";
-		private string dbPass = "!!Test440";
-		private string dbName = "ciscom_testDB";
+		private string dbID = "cis440template";
+		private string dbPass = "!!Cis440";
+		private string dbName = "cis440template";
 		////////////////////////////////////////////////////////////////////////
 		
 		////////////////////////////////////////////////////////////////////////
 		///call this method anywhere that you need the connection string!
 		////////////////////////////////////////////////////////////////////////
 		private string getConString() {
-			return "SERVER=databases.cis440.com; PORT=3306; DATABASE="+dbName+"; UID=" + dbID + "; PASSWORD=" + dbPass;
+			return "SERVER=107.180.1.16; PORT=3306; DATABASE=" + dbName+"; UID=" + dbID + "; PASSWORD=" + dbPass;
 		}
 		////////////////////////////////////////////////////////////////////////
 
